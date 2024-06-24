@@ -1,5 +1,7 @@
-from curency.usd import usd
-from curency.fc import fc
+# import currency
+
+from USD.curency.usd import usd
+from FC.curency.fc import fc
 
 def faire_choix():
     

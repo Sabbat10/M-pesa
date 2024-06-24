@@ -1,3 +1,5 @@
+from retire_du_cash.retirer_du_cash import retirer_du_cash
+
 def fc():
     
     while True:
@@ -6,7 +8,7 @@ def fc():
         try:
             choix = int(choix_str)
             if choix in [1, 2, 3, 4, 5]:
-                print("Choix valide usd")
+                retirer_du_cash()
                 break
             else:
                 print("Choix invalide. Veuillez saisir un nombre entre 1 et 5.")
