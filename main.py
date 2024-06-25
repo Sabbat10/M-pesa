@@ -23,7 +23,6 @@ def faire_choix():
                 print("Choix 4")
                 break
             elif choix == 5:
-                print("Choix 5") 
                 break       
             else:
                 print()

@@ -31,7 +31,6 @@ def fc():
                 print("Services Compte")
                 break
             elif choix == 8:
-                print("Retour")
                 break
             else:
                 print("Choix invalide. Veuillez saisir un nombre entre 1 et 8.")
