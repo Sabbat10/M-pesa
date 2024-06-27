@@ -1,3 +1,7 @@
+# import motant
+from OPERATIONS.motant.motant import motant 
+
+
 # function agent
 numero_agent = 12345678
 def agent():
@@ -11,7 +15,7 @@ def agent():
                 print("Entrer un mot de passe de 4 à 6 chiffres" )
                 break
             elif choix == numero_agent:
-                print("Veillez inserer un mot de passe")
+                motant()
                 break
             elif choix == 00:
                 break
